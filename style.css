@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.card{
+    position: relative;
+    background: #ffffff;
+    border: 2px solid rgb(rgb(141, 141, 141);
+    width: 100px;
+    border-radius: 8px;
+    padding: 12px;
+    height: max-content;
+    /*transition: all 400ms case-out;
+    animation-name: changeBorderColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+.container .card:alt-child(2){
+    position: fixed;
+}

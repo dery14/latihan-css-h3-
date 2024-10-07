@@ -1,0 +1,54 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.kpla{
+    background-color: crimson;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+.pala .head1{
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tengah{
+    background-color: khaki;
+    padding-bottom: 500px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.tengah > .alas {
+    background-color: azure;
+    padding: 2px;
+    width: 75%;
+    margin-left: 15%;
+    padding-left: 5%;
+}
+
+.tengah .alas h2 {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tengah .alas p{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bawah{
+    background-color: ghostwhite;
+    width: 100%;
+    padding: 5px;
+    
+}
+.bawah .head3 {
+    color: indigo;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
